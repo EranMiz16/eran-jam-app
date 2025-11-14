@@ -4,22 +4,20 @@
 
 /* what is :root? https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
 :root {
-  /* Define design variables */
-  --color-primary: #2b2d42;
-  --color-secondary: #bfc6d2;
-  --color-background: #f5f5f5;
-  --color-accent: #535bf2;
-
-  --border-radius: 0.5rem;
-
-  --font-titles: "Rubik", serif;
-  --font-body: system-ui, sans-serif; /* system-ui matches the user's system font */
+  --bg: #ffffff;
+  --red: #e30613;
+  --black: #0b0b0b;
+  --muted: #6b6b6b;
+  --container: 18px;
+  --radius: 10px;
+  font-family: 'TheBasics', sans-serif;
 }
+
 
 body {
   color: var(--color-primary);
   background-color: var(--color-background);
-  font-family: var(--font-body);
+  font-family: 'TheBasics', sans-serif;
 }
 
 /* Layout */
@@ -88,7 +86,7 @@ h4,
 h5,
 h6 {
   margin-top: 1rem;
-  font-family: var(--font-titles);
+  font-family: 'TheBasics', sans-serif;
   font-weight: 500;
   font-optical-sizing: auto;
 }
