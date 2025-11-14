@@ -33,8 +33,8 @@ export default function Home() {
           Tic Tac Toe Game
         </Link>
 
-        <Link href="/nasa" className={styles.card}>
-          NASA Space Images
+        <Link href="/art" className={styles.card}>
+          Met Museum of Art
         </Link>
 
         <Link href="/design" className={styles.card}>
