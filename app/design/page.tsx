@@ -72,12 +72,12 @@ export default function DesignPage() {
         <div className={styles.creditList}>
           <article className={styles.credit}>
             <div className={styles.index}>(1)</div>
-            <h3 className={styles.creditTitle}><span className={styles.red}>מתכננים:</span> נוי בריתן, מעין מימון, שירה ברקוביץ', רפאל סבון.</h3>
+            <h3 className={styles.creditTitle}><span className={styles.red}>מתכננים:</span> נוי בריתן, מעין מימון, שירה ברקוביץ, רפאל סבון.</h3>
           </article>
 
           <article className={styles.credit}>
             <div className={styles.index}>(2)</div>
-            <h3 className={styles.creditTitle}><span className={styles.red}>מעצבים:</span> טל לנגזם, שני דדוביץ', אגניו טגניה, מאי מינה</h3>
+            <h3 className={styles.creditTitle}><span className={styles.red}>מעצבים:</span> טל לנגזם, שני דדוביץ, אגניו טגניה, מאי מינה</h3>
           </article>
 
           <article className={styles.credit}>
@@ -104,7 +104,7 @@ export default function DesignPage() {
             <br />
             <span className={styles['white-text']}>אמנים ויוצרים פעילים:</span>
             <br />
-            אמנים, בוגרי בתי ספר לאומנות, סטודנטים לאמנות, יוצרים חדשניים, עצמאיים, סטודיואים וכו'.
+            אמנים, בוגרי בתי ספר לאומנות, סטודנטים לאמנות, יוצרים חדשניים, עצמאיים, סטודיואים וכו.
           </h2>
           <p className={styles.contextParagraph}>
             המוצר ישרת את האוצרים והאוצרות לשימוש תקופתי בעת עבודה על הכנת תערוכות, ואת האמנים ישרת גם לשימוש יומיומי בחיפוש אחר פלטפורמה להצגת העבודות שלהם ולשיתופי פעולה.
